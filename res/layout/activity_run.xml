@@ -1,0 +1,65 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+	
+	<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	    xmlns:tools="http://schemas.android.com/tools"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent" >
+	
+	    <TextView
+	        android:id="@+id/runAndTotalMiles"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentLeft="true"
+	        android:text="@string/varibles"
+	        android:textAppearance="?android:attr/textAppearanceMedium" />
+	    
+	    <ProgressBar   
+	         android:id="@+id/rectangleProgressBar"    
+	         style="@android:style/Widget.ProgressBar.Horizontal"
+	         android:layout_width="fill_parent"   
+	         android:layout_height="wrap_content"
+	         android:layout_below="@+id/runAndTotalMiles"
+	         android:visibility="visible"  
+	         /> 
+	    
+	    <TextView
+	        android:id="@+id/speedInfo"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentLeft="true"
+	        android:layout_below="@+id/rectangleProgressBar"
+	        android:text="@string/varibles"
+	        android:textAppearance="?android:attr/textAppearanceMedium" />
+	        
+	    <TextView
+	        android:id="@+id/curSpeed"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentLeft="true"
+	        android:layout_below="@+id/speedInfo"
+	        android:text="@string/varibles"
+	        android:textAppearance="?android:attr/textAppearanceMedium" />
+	    
+	    <TextView
+	        android:id="@+id/locationInfo"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentLeft="true"
+	        android:layout_below="@+id/curSpeed"
+	        android:text="@string/varibles"
+	        android:textAppearance="?android:attr/textAppearanceMedium" />
+	    
+	    <Button
+	        android:id="@+id/runDone"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_centerVertical="true"
+	        android:layout_alignParentRight="true"
+	        android:layout_marginRight="33dp"
+	        android:layout_below="@+id/locationInfo"
+	        android:text="@string/Done" />
+	
+	</RelativeLayout>
+</ScrollView>

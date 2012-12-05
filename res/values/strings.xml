@@ -1,0 +1,27 @@
+<resources>
+
+    <string name="app_name">SlowRunnerAssist</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">SlowRunnerAssist</string>
+    <string name="hint1">How Long Would you like to run?</string>
+    <string name="term1">Miles</string>
+    <string name="defTotalMiles">5.0</string>
+    <string name="hint2">Preferred Speed</string>
+    <string name="term2">Miles/Hour</string>
+    <string name="defSpeed">2.0</string>
+    <string name="title_activity_pick_music">PickMusicActivity</string>
+    <string name="button1">SelectMusic</string>
+    <string name="button3">Select</string>
+    <string name="button5">Back</string>
+    <string name="des1">Image icon</string>
+    <string name="hint3">A Song You Love:</string>
+    <string name="LovedSong"></string>
+    <string name="hint4">A Song You Hate:</string>
+    <string name="HatedSong"></string>
+    <string name="button4">Start Running</string>
+    <string name="title_activity_run">RunActivity</string>
+    <string name="varibles"></string>
+    <string name="Done">Done</string>
+
+</resources>
